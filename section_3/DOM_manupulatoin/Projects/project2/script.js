@@ -1,6 +1,7 @@
 let answer = Math.floor(Math.random() * 100) + 1;
 let i = 1;
 console.log(answer);
+console.log(typeof answer);
 // const inputarray = [];
 const button = document.querySelector('.btn');
 button.addEventListener('click', function(e) {
