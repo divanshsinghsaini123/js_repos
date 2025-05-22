@@ -2,7 +2,7 @@
     // They're still used today, especially in more complex or legacy code,
     //  though newer patterns (like arrow functions or class fields) have made some use cases less common.
 
-    // BIND() - Does not invoke the function immediately.
+    // BIND() - Does not invoke the function immediately(because it returns a new function).
             // Creates a new function with a fixed this value.
             // Use Cases:
                 // Event handlers in class components (like in React).
@@ -27,5 +27,5 @@
                 }
 
                 greet.call(man, "Hello"); // Hello, I'm Alice
-                
+
     // APPLY() - Similar to call(), but takes an array of arguments.
